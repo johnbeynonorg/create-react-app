@@ -5,6 +5,8 @@ services:
     env: static
     buildCommand: yarn build
     staticPublishPath: ./build
+    domains:
+      - foo.thebeynons-seconddomain.uk
     routes:
       - type: rewrite
         source: /*
